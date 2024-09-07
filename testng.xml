@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel="tests" thread-count="6">
+  
+<listeners>
+	<listener class-name = "Framewrk.listeners"/>
+</listeners>
+  
+<test thread-count="5" name="Personal Loan">
+  <parameter name = "URL" value="personalloan.com"/>
+	
+	<classes>
+      <class name="Framewrk.day1">  
+      	<methods>
+      	<include name = "Demo"/>
+      	</methods>
+      </class>
+      
+      <class name="Framewrk.day2"/>
+      <class name="Framewrk.day4"/>
+	</classes>
+</test> <!-- Test -->
+
+<test name="Car Loan">
+	<classes>
+ 		<class name = "Framewrk.day3">
+ 			<methods>
+ 			<!--	<exclude name = "mobileloginCarLoan"/>	-->	<!--Excluded Method mobileloginCarLoan()-->
+ 			<!--	<exclude name = "API.*"/>	-->				<!--Excluded Method mobileloginCarLoan()-->
+ 			</methods>
+ 		</class>
+  	</classes>
+</test>
+
+</suite> <!-- Suite -->
