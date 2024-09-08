@@ -14,6 +14,10 @@ public class day1
 	public void Demo()
 	{
 	System.out.println("class: day1, method: Demo.  Hello Mohamed! Now Start Framework, First is 'TestNG'"); //automation
+
+	System.out.println("GitDemo -- Github test"); //GitDemo
+	System.out.println("GitX -- Github test"); //GitDemo
+	
 	}
 
 	@AfterSuite
