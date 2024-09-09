@@ -19,7 +19,8 @@ public class day2
 	
 	//Now Studying branch
 	System.out.println("Day 2: branch study: day 1 and day 2 branch classes have '>'");
-		
+	System.out.println("Day 2: develop test: commit test");
+
 	
 	}
 }
