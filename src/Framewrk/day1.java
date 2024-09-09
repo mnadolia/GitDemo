@@ -18,6 +18,9 @@ public class day1
 	System.out.println("GitDemo -- Github test"); //GitDemo
 	System.out.println("GitX -- Github test"); //GitDemo
 	
+	//Now Studying branch
+	System.out.println("branch study: Project name changed to develop branch. check project title");
+	
 	}
 
 	@AfterSuite
